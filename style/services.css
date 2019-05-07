@@ -10,7 +10,7 @@
  .services-block{
  	position: absolute;
  	right: 20%;
- 	width: 660px;
+ 	width: 690px;
  }
 
  .title-box{
@@ -67,4 +67,28 @@
 
 .img-wrap{
 	width: 40px;
+}
+
+@media(max-width: 1812px){
+	.services-block{
+		right: 10%;
+	}
+}
+
+@media(max-width: 1566px){
+	.services-block{
+		right: 0;
+	}
+}
+
+@media(max-width: 1425px){
+	.services{
+		background-size:75%;
+	}
+}
+
+@media(max-width: 1284px){
+	.services{
+		background-size:70%;
+	}
 }
