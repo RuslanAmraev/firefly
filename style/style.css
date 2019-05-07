@@ -1,0 +1,37 @@
+@import url('./header.css');
+@import url('./main.css');
+@import url('./customers.css');
+@import url('./services.css');
+@import url('./together.css');
+@import url('./contact.css');
+@import url('./footer.css');
+
+
+
+
+
+
+
+
+
+
+
+ul, li{
+	display: block;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	border-bottom: none;
+}
+.flex{
+	display: flex;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+section{
+	padding: 20px 0;
+}

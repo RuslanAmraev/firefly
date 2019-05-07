@@ -1,0 +1,89 @@
+.header{
+	width: 1920px;
+	height: 130px;
+}
+
+.header-contacts{
+	display: flex;
+	height: 40px;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+	justify-content: space-between;
+}
+
+.contact-img:nth-child(1){
+	width: 14px;
+	height: 12px;
+	margin-right: 20px;
+}
+
+.contact-img:nth-child(2){
+	width: 150px;
+	height: 12px;
+}
+
+.container{
+	padding: 0 380px;
+}
+
+.contacts--social{
+	height: 12px;
+	margin: auto 0;
+}
+
+.contacts--telephone{
+	margin: auto 0;
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 12px;
+	color: #303842;
+}
+
+.header-navbar{
+	height: 90px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-logo{
+	margin: auto 0;
+}
+
+.header-menu{
+	display: flex;
+	height: 100%;
+}
+
+.menu--item{
+	font-style: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2.2px;
+	color: #45505e;
+	margin-left: 50px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.menu--item:hover{
+	border-top: 2px solid #4caf50;
+	padding-bottom: 2px;
+}
+
+.menu--item:first-child{
+	margin-left: 0;
+}
+
+.menu--item:last-child{
+	height: 11px;
+	border: none;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+img.menu--item:hover{
+	border: none;
+	padding: 0;
+}

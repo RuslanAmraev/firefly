@@ -1,0 +1,36 @@
+.main{
+	width: 1920px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main h1{
+	font-size: 56px;
+	font-weight: 300;
+	line-height: 72px;
+	height: 130px;
+	color: rgba(0,0,0, .6);
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.main p{
+	font-size: 18px;
+	color: rgba(0,0,0, .5);
+	height: 44px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.button{
+	color: #4caf50;
+	background-color: #fff;
+	border: none;
+	border-radius: 22px;
+	height: 44px;
+	width: 140px;
+	box-shadow: 0 0 12px rgba(108, 108, 108, 0.23);
+}

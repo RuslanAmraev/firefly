@@ -1,0 +1,34 @@
+.customers{
+	width: 1920px;
+	height: 160px;
+	border-top: 1px solid rgba(0,0,0, .2);
+	border-bottom: 1px solid rgba(0,0,0, .2);
+	margin-bottom: 100px;
+}
+
+.customers-text{
+	width: 360px;
+}
+
+.customers-text h2{
+	font-size: 24px;
+	color: #303842;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+.customers p{
+	font-size: 14px;
+	color: rgba(0,0,0, .5);
+}
+
+.customers-icons img{
+	margin: 0 35px;
+}
+
+.customers-wrap{
+	height: 160px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
