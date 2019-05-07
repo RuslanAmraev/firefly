@@ -1,15 +1,20 @@
 .create-together{
 	height: 920px;
-	width: 1920px;
+	width: 100%;
 	position: relative;
 	display: flex;
 	align-items: center;
 	z-index: 2;
+	background-image: url('../images/man.png');
+	background-repeat: no-repeat;
+	background-color: #fafafa;
+	background-position-x: 900px;
+	background-position: 90% 50%;
+	clip-path: polygon(0 100%, 0 20%, 100% 0, 100% 80%)
 }
 
 .together-block{
-	margin: auto 0 auto 570px;
-	transform: rotate(10deg);
+	margin: auto 0 auto 10%;
 }
 
 .stats-rows{
@@ -43,26 +48,6 @@
 	color: #f44336;
 }
 
-.bg{
-	display: flex;
-	overflow: hidden;
-	height: 650px;
-	width: 3000px;
-	background-color: #fafafa;
-	position: absolute;
-	transform: rotate(-10deg);
-	top: 100px;
-    left: -100px;
-    padding-top: 150px; 
-}
-
-.bg img{
-	height: 707px;
-	margin-top: auto;
-	padding: 20px;
-	transform: rotate(10deg);
-}
-
 .bg-wrap{
 	position: absolute;
 	height: 1200px;
@@ -70,3 +55,4 @@
 	overflow: hidden;
 	top: -100px;
 }
+
