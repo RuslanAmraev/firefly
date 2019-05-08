@@ -3,6 +3,9 @@
 	width: 100%;
 	position: relative;
 	z-index: 3;
+	background-image: url(../images/2bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .contact-box{

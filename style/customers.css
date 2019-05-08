@@ -22,17 +22,25 @@
 	color: rgba(0,0,0, .5);
 }
 
-.customes-icons{
+.customers-icons{
 	display: flex;
-}
-
-.customers-icons img{
-	margin: 0 35px;
+	justify-content: space-between;
+	width: 600px;
 }
 
 .customers-wrap{
-	height: 160px;
+	height: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+@media(max-width: 1216px){
+	.customers{
+		height: 320px;
+	}
+
+	.customers-icons{
+		flex-wrap: wrap;
+	}
 }

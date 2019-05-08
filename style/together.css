@@ -56,3 +56,11 @@
 	top: -100px;
 }
 
+@media(max-width: 1225px){
+	.create-together{
+		background-image: none;
+	}
+	.together-block{
+		margin-left: 25%;
+	}
+}
